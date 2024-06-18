@@ -54,6 +54,8 @@ a{
 p{
     font-size: 24px;
     font-weight: 600;
+    color: brown;
+
 }
 .abt, .mem, .ach, .eve{
     padding-left: 20px;
@@ -94,6 +96,8 @@ footer{
 i{
     font-size: 24px;
     padding: 2px;
+    color: rgb(11, 115, 129);
+
 }
 .foll{
     padding: 3px;
@@ -111,5 +115,6 @@ i{
 }
 .col2 a{
     padding-top: 1px;
-    padding-bottom: 1px;
+    padding-bottom: 3px;
+    color: rgb(0, 0, 0);
 }
