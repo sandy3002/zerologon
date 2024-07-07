@@ -1,0 +1,20 @@
+.carousel {
+    width: 600px; /* Adjust width as needed */
+    overflow: hidden; /* Hide overflowing content */
+    position: relative;
+  }
+  
+  .slide {
+    width: 100%; /* Slides take full carousel width */
+    opacity: 0; /* Hide slides initially */
+    transition: opacity 0.5s ease-in-out; /* Smooth transition */
+  }
+  
+  .slide:first-child {
+    opacity: 1; /* Show first slide by default */
+  }
+  
+  .active {
+    opacity: 1; /* Show active slide */
+  }
+  
